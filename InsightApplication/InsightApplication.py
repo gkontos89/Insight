@@ -1,4 +1,5 @@
 from tkinter import *
+import easygui
 
 from DataManger import *
 
@@ -7,7 +8,7 @@ class MovieListbox(Listbox):
   Class for a listbox that will contain movies and have callbacks specific
   for this application
   '''
-  def __init__(self, master = None, cnf = {}, **kw):
+  def __init__(self, master = None, cnf = {},  **kw):
     '''
     Initializes the listbox and sets attributes
     Args:
@@ -16,16 +17,17 @@ class MovieListbox(Listbox):
     super().__init__(master, cnf, **kw)
     self.config['selectmode'] = SINGLE
     self.bind('<<ListboxSelect>>', self.onSelect)
+    self.parentContainer = master
 
-  def generateMovieList(self, movies = {}):
+  def generateMovieList(self, movies = []):
     '''
     This function simply populates the listbox
     Args:
-      movies - dictionary of {movieName, movieObject}
+      movies - list of movie titles
     '''
     idx = 1
-    for movieName in movies:
-      self.insert(idx, movieName)
+    for title in movies:
+      self.insert(idx, title)
       idx += 1
 
   def onSelect(self, evt):
@@ -35,14 +37,22 @@ class MovieListbox(Listbox):
     w = evt.widget
     index = int(w.curselection()[0])
     value = w.get(index)
+    self.parentContainer.appCallback(value)
 
 class DynamicGenreNotebook(ttk.Notebook):
   '''
   Wrapper class for a tkinter notebook, which is a tabbed interface.
   The wrapper allows for dynamic updating of the tabs and contents
   '''
-  def __init__(self, master = None, **kw):
+  def __init__(self, master = None, dataEventCb = None, **kw):
+    '''
+    initialize class
+    Args:
+      dataEventCb - call back function for when data has changed and
+                    needs to be propogated back to the app.
+    '''
     super().__init__(master, **kw)
+    self.appCallback = dataEventCb
 
   def generateTabs(self, genres = {}):
     '''
@@ -75,10 +85,9 @@ class InsightApplication():
 
     self.main = Tk()
 
-    self.tabbedInterface = DynamicGenreNotebook(self.main)
+    self.tabbedInterface = DynamicGenreNotebook(self.main, self.selectMovieCb)
     self.dbSyncButton = Button(self.main, text = "Sync Database", command = self.dbSyncCb)
     self.loadDbButton = Button(self.main, text = "Load Database", command = self.loadDbCb)
-
 
     self.main.mainloop()
 
@@ -102,18 +111,21 @@ class InsightApplication():
     Args:
       None
     '''
-    # TODO: have user select data file
-    self.dataManger.loadDatabase()
+    file = easygui.fileopenbox()
+
+    self.dataManger.loadDatabase(file)
     if self.dataManger.movieDb:
       self.tabbedInterface.generateTabs(self.dataManger.movieDb)
 
-  def selectMovieCb(self):
+  def selectMovieCb(self, movieSelection):
     '''
     Callback for when a movie is selected by the user.  This will facilitate
     the Info and Link fields to be generated in the GUI
     Args:
-      None - for now
+      movieSelection - the movie name that was just selected by the user.
     '''
+
+
     pass
 
   def runSearchCb(self, searchString):

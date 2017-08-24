@@ -30,11 +30,13 @@ class Extractor():
           title = movieFile
           fileType = movieFile.split('.')[1]
           size = os.path.getsize(movieAbsPath)
-
+          genre = g.name
           # TODO:  compute length 
 
-          g.addMovie(Movie(title, size, fileType, length))
+          m = Movie(title, generator, size, fileType, length) 
+          g.addMovie(m.title)
 
       self.movieDb.addGenre(g)
+      self.movieDb.addMovie(m)
 
     return self.movieDb

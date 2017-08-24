@@ -12,7 +12,7 @@
     <OutputPath>.</OutputPath>
     <Name>InsightApplication</Name>
     <RootNamespace>InsightApplication</RootNamespace>
-    <InterpreterId>{2af0f10d-7135-4994-9156-5d01c9c11b7e}</InterpreterId>
+    <InterpreterId>{3dcdfe9e-5a08-4d75-9ec7-bf69c060d30f}</InterpreterId>
     <InterpreterVersion>3.5</InterpreterVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -30,10 +30,20 @@
     <Compile Include="src\Extractor.py" />
   </ItemGroup>
   <ItemGroup>
-    <InterpreterReference Include="{2af0f10d-7135-4994-9156-5d01c9c11b7e}\3.5" />
+    <Folder Include="src\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="src\" />
+    <Interpreter Include="venv\">
+      <Id>{3dcdfe9e-5a08-4d75-9ec7-bf69c060d30f}</Id>
+      <BaseInterpreter>{72278580-53fc-4053-8230-a1be0084334d}</BaseInterpreter>
+      <Version>3.5</Version>
+      <Description>venv (Python 3.6)</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <LibraryPath>Lib\</LibraryPath>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+      <Architecture>X86</Architecture>
+    </Interpreter>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -1,0 +1,717 @@
+﻿
+2017-08-06T09:27:30: Start analysis
+2017-08-06T09:27:30: [WARNING] Library was set explicitly - skipping path detection
+2017-08-06T09:27:30: IncludeModulesFromModulePath = win32com
+2017-08-06T09:27:34: Deleting 0 files
+2017-08-06T09:27:34: Scraping builtin modules
+2017-08-06T09:27:34: Command: C:\Insight\InsightApplication\venv\Scripts\python.exe "C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\PythonScraper.py" C:\Insight\InsightApplication\venv\.ptvs\ "C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\\"
+2017-08-06T09:27:41: Output
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_codecs.idb
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_collections.idb
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_functools.idb
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_heapq.idb
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_io.idb
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_locale.idb
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_md5.idb
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_random.idb
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_sha256.idb
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_sha512.idb
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_sre.idb
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_struct.idb
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_warnings.idb
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_weakref.idb
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\array.idb
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\binascii.idb
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\cmath.idb
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\errno.idb
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\gc.idb
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\itertools.idb
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\marshal.idb
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\math.idb
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\mmap.idb
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\msvcrt.idb
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\nt.idb
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\sys.idb
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\time.idb
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\xxsubtype.idb
+2017-08-06T09:27:41: Scraped builtin modules
+2017-08-06T09:27:42: astropy.CallDepth = 0
+2017-08-06T09:27:42: matplotlib.CallDepth = 3
+2017-08-06T09:27:42: pandas.CallDepth = 0
+2017-08-06T09:27:42: sympy.CallDepth = 0
+2017-08-06T09:27:42: Start group "C:\Insight\InsightApplication\venv\Lib\site-packages" with 1 files
+2017-08-06T09:27:43: Parsing "easy_install" ("C:\Insight\InsightApplication\venv\Lib\site-packages\easy_install.py")
+2017-08-06T09:27:43: Parsing complete
+2017-08-06T09:27:43: Analyzing "easy_install"
+2017-08-06T09:27:43: Starting analysis of 1 modules
+2017-08-06T09:27:43: Analysis complete
+2017-08-06T09:27:43: Saving group "C:\Insight\InsightApplication\venv\Lib\site-packages"
+2017-08-06T09:27:48: End of group "C:\Insight\InsightApplication\venv\Lib\site-packages"
+2017-08-06T09:27:48: Start group "C:\Insight\InsightApplication\venv\Lib\site-packages\easygui" with 19 files
+2017-08-06T09:27:49: Parsing "easygui.easygui" ("C:\Insight\InsightApplication\venv\Lib\site-packages\easygui\easygui.py")
+2017-08-06T09:27:49: Parsing "easygui" ("C:\Insight\InsightApplication\venv\Lib\site-packages\easygui\__init__.py")
+2017-08-06T09:27:49: Parsing "easygui.boxes.about" ("C:\Insight\InsightApplication\venv\Lib\site-packages\easygui\boxes\about.py")
+2017-08-06T09:27:49: Parsing "easygui.boxes.base_boxes" ("C:\Insight\InsightApplication\venv\Lib\site-packages\easygui\boxes\base_boxes.py")
+2017-08-06T09:27:49: Parsing "easygui.boxes.button_box" ("C:\Insight\InsightApplication\venv\Lib\site-packages\easygui\boxes\button_box.py")
+2017-08-06T09:27:49: Parsing "easygui.boxes.choice_box" ("C:\Insight\InsightApplication\venv\Lib\site-packages\easygui\boxes\choice_box.py")
+2017-08-06T09:27:49: Parsing "easygui.boxes.demo" ("C:\Insight\InsightApplication\venv\Lib\site-packages\easygui\boxes\demo.py")
+2017-08-06T09:27:49: Parsing "easygui.boxes.derived_boxes" ("C:\Insight\InsightApplication\venv\Lib\site-packages\easygui\boxes\derived_boxes.py")
+2017-08-06T09:27:49: Parsing "easygui.boxes.diropen_box" ("C:\Insight\InsightApplication\venv\Lib\site-packages\easygui\boxes\diropen_box.py")
+2017-08-06T09:27:49: Parsing "easygui.boxes.egstore" ("C:\Insight\InsightApplication\venv\Lib\site-packages\easygui\boxes\egstore.py")
+2017-08-06T09:27:49: Parsing "easygui.boxes.fileboxsetup" ("C:\Insight\InsightApplication\venv\Lib\site-packages\easygui\boxes\fileboxsetup.py")
+2017-08-06T09:27:49: Parsing "easygui.boxes.fileopen_box" ("C:\Insight\InsightApplication\venv\Lib\site-packages\easygui\boxes\fileopen_box.py")
+2017-08-06T09:27:49: Parsing "easygui.boxes.filesave_box" ("C:\Insight\InsightApplication\venv\Lib\site-packages\easygui\boxes\filesave_box.py")
+2017-08-06T09:27:49: Parsing "easygui.boxes.fillable_box" ("C:\Insight\InsightApplication\venv\Lib\site-packages\easygui\boxes\fillable_box.py")
+2017-08-06T09:27:49: Parsing "easygui.boxes.global_state" ("C:\Insight\InsightApplication\venv\Lib\site-packages\easygui\boxes\global_state.py")
+2017-08-06T09:27:49: Parsing "easygui.boxes.multi_fillable_box" ("C:\Insight\InsightApplication\venv\Lib\site-packages\easygui\boxes\multi_fillable_box.py")
+2017-08-06T09:27:49: Parsing "easygui.boxes.text_box" ("C:\Insight\InsightApplication\venv\Lib\site-packages\easygui\boxes\text_box.py")
+2017-08-06T09:27:49: Parsing "easygui.boxes.utils" ("C:\Insight\InsightApplication\venv\Lib\site-packages\easygui\boxes\utils.py")
+2017-08-06T09:27:49: Parsing "easygui.boxes" ("C:\Insight\InsightApplication\venv\Lib\site-packages\easygui\boxes\__init__.py")
+2017-08-06T09:27:49: Parsing complete
+2017-08-06T09:27:49: Analyzing "easygui.easygui"
+2017-08-06T09:27:49: Analyzing "easygui"
+2017-08-06T09:27:49: Analyzing "easygui.boxes.about"
+2017-08-06T09:27:49: Analyzing "easygui.boxes.base_boxes"
+2017-08-06T09:27:49: Analyzing "easygui.boxes.button_box"
+2017-08-06T09:27:49: Analyzing "easygui.boxes.choice_box"
+2017-08-06T09:27:49: Analyzing "easygui.boxes.demo"
+2017-08-06T09:27:49: Analyzing "easygui.boxes.derived_boxes"
+2017-08-06T09:27:49: Analyzing "easygui.boxes.diropen_box"
+2017-08-06T09:27:49: Analyzing "easygui.boxes.egstore"
+2017-08-06T09:27:49: Analyzing "easygui.boxes.fileboxsetup"
+2017-08-06T09:27:49: Analyzing "easygui.boxes.fileopen_box"
+2017-08-06T09:27:49: Analyzing "easygui.boxes.filesave_box"
+2017-08-06T09:27:49: Analyzing "easygui.boxes.fillable_box"
+2017-08-06T09:27:49: Analyzing "easygui.boxes.global_state"
+2017-08-06T09:27:49: Analyzing "easygui.boxes.multi_fillable_box"
+2017-08-06T09:27:49: Analyzing "easygui.boxes.text_box"
+2017-08-06T09:27:49: Analyzing "easygui.boxes.utils"
+2017-08-06T09:27:49: Analyzing "easygui.boxes"
+2017-08-06T09:27:49: Starting analysis of 19 modules
+2017-08-06T09:27:54: Analysis complete
+2017-08-06T09:27:54: Saving group "C:\Insight\InsightApplication\venv\Lib\site-packages\easygui"
+2017-08-06T09:27:54: End of group "C:\Insight\InsightApplication\venv\Lib\site-packages\easygui"
+2017-08-06T09:27:54: Start group "C:\Insight\InsightApplication\venv\Lib\site-packages\pip" with 241 files
+2017-08-06T09:27:54: Parsing "pip.basecommand" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\basecommand.py")
+2017-08-06T09:27:54: Parsing "pip.baseparser" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\baseparser.py")
+2017-08-06T09:27:54: Parsing "pip.cmdoptions" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\cmdoptions.py")
+2017-08-06T09:27:54: Parsing "pip.download" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\download.py")
+2017-08-06T09:27:54: Parsing "pip.exceptions" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\exceptions.py")
+2017-08-06T09:27:55: Parsing "pip.index" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\index.py")
+2017-08-06T09:27:55: Parsing "pip.locations" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\locations.py")
+2017-08-06T09:27:55: Parsing "pip.pep425tags" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\pep425tags.py")
+2017-08-06T09:27:55: Parsing "pip.status_codes" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\status_codes.py")
+2017-08-06T09:27:55: Parsing "pip.wheel" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\wheel.py")
+2017-08-06T09:27:55: Parsing "pip" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\__init__.py")
+2017-08-06T09:27:55: Parsing "pip.__main__" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\__main__.py")
+2017-08-06T09:27:55: Parsing "pip.commands.check" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\commands\check.py")
+2017-08-06T09:27:55: Parsing "pip.commands.completion" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\commands\completion.py")
+2017-08-06T09:27:55: Parsing "pip.commands.download" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\commands\download.py")
+2017-08-06T09:27:55: Parsing "pip.commands.freeze" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\commands\freeze.py")
+2017-08-06T09:27:55: Parsing "pip.commands.hash" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\commands\hash.py")
+2017-08-06T09:27:55: Parsing "pip.commands.help" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\commands\help.py")
+2017-08-06T09:27:55: Parsing "pip.commands.install" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\commands\install.py")
+2017-08-06T09:27:55: Parsing "pip.commands.list" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\commands\list.py")
+2017-08-06T09:27:55: Parsing "pip.commands.search" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\commands\search.py")
+2017-08-06T09:27:55: Parsing "pip.commands.show" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\commands\show.py")
+2017-08-06T09:27:55: Parsing "pip.commands.uninstall" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\commands\uninstall.py")
+2017-08-06T09:27:55: Parsing "pip.commands.wheel" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\commands\wheel.py")
+2017-08-06T09:27:55: Parsing "pip.commands" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\commands\__init__.py")
+2017-08-06T09:27:55: Parsing "pip.compat.dictconfig" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\compat\dictconfig.py")
+2017-08-06T09:27:55: Parsing "pip.compat" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\compat\__init__.py")
+2017-08-06T09:27:55: Parsing "pip.models.index" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\models\index.py")
+2017-08-06T09:27:55: Parsing "pip.models" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\models\__init__.py")
+2017-08-06T09:27:55: Parsing "pip.operations.check" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\operations\check.py")
+2017-08-06T09:27:55: Parsing "pip.operations.freeze" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\operations\freeze.py")
+2017-08-06T09:27:55: Parsing "pip.operations" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\operations\__init__.py")
+2017-08-06T09:27:55: Parsing "pip.req.req_file" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\req\req_file.py")
+2017-08-06T09:27:55: Parsing "pip.req.req_install" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\req\req_install.py")
+2017-08-06T09:27:55: Parsing "pip.req.req_set" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\req\req_set.py")
+2017-08-06T09:27:55: Parsing "pip.req.req_uninstall" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\req\req_uninstall.py")
+2017-08-06T09:27:56: Parsing "pip.req" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\req\__init__.py")
+2017-08-06T09:27:56: Parsing "pip.utils.appdirs" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\utils\appdirs.py")
+2017-08-06T09:27:56: Parsing "pip.utils.build" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\utils\build.py")
+2017-08-06T09:27:56: Parsing "pip.utils.deprecation" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\utils\deprecation.py")
+2017-08-06T09:27:56: Parsing "pip.utils.encoding" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\utils\encoding.py")
+2017-08-06T09:27:56: Parsing "pip.utils.filesystem" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\utils\filesystem.py")
+2017-08-06T09:27:56: Parsing "pip.utils.glibc" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\utils\glibc.py")
+2017-08-06T09:27:56: Parsing "pip.utils.hashes" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\utils\hashes.py")
+2017-08-06T09:27:56: Parsing "pip.utils.logging" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\utils\logging.py")
+2017-08-06T09:27:56: Parsing "pip.utils.outdated" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\utils\outdated.py")
+2017-08-06T09:27:56: Parsing "pip.utils.packaging" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\utils\packaging.py")
+2017-08-06T09:27:56: Parsing "pip.utils.setuptools_build" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\utils\setuptools_build.py")
+2017-08-06T09:27:56: Parsing "pip.utils.ui" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\utils\ui.py")
+2017-08-06T09:27:56: Parsing "pip.utils" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\utils\__init__.py")
+2017-08-06T09:27:56: Parsing "pip.vcs.bazaar" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\vcs\bazaar.py")
+2017-08-06T09:27:56: Parsing "pip.vcs.git" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\vcs\git.py")
+2017-08-06T09:27:56: Parsing "pip.vcs.mercurial" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\vcs\mercurial.py")
+2017-08-06T09:27:56: Parsing "pip.vcs.subversion" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\vcs\subversion.py")
+2017-08-06T09:27:56: Parsing "pip.vcs" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\vcs\__init__.py")
+2017-08-06T09:27:56: Parsing "pip._vendor.appdirs" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\appdirs.py")
+2017-08-06T09:27:56: Parsing "pip._vendor.distro" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\distro.py")
+2017-08-06T09:27:56: Parsing "pip._vendor.ipaddress" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\ipaddress.py")
+2017-08-06T09:27:56: Parsing "pip._vendor.ordereddict" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\ordereddict.py")
+2017-08-06T09:27:56: Parsing "pip._vendor.pyparsing" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\pyparsing.py")
+2017-08-06T09:27:56: Parsing "pip._vendor.retrying" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\retrying.py")
+2017-08-06T09:27:56: Parsing "pip._vendor.six" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\six.py")
+2017-08-06T09:27:56: Parsing "pip._vendor" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\__init__.py")
+2017-08-06T09:27:56: Parsing "pip._vendor.cachecontrol.adapter" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\cachecontrol\adapter.py")
+2017-08-06T09:27:56: Parsing "pip._vendor.cachecontrol.cache" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\cachecontrol\cache.py")
+2017-08-06T09:27:56: Parsing "pip._vendor.cachecontrol.compat" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\cachecontrol\compat.py")
+2017-08-06T09:27:56: Parsing "pip._vendor.cachecontrol.controller" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\cachecontrol\controller.py")
+2017-08-06T09:27:56: Parsing "pip._vendor.cachecontrol.filewrapper" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\cachecontrol\filewrapper.py")
+2017-08-06T09:27:56: Parsing "pip._vendor.cachecontrol.heuristics" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\cachecontrol\heuristics.py")
+2017-08-06T09:27:56: Parsing "pip._vendor.cachecontrol.serialize" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\cachecontrol\serialize.py")
+2017-08-06T09:27:56: Parsing "pip._vendor.cachecontrol.wrapper" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\cachecontrol\wrapper.py")
+2017-08-06T09:27:56: Parsing "pip._vendor.cachecontrol._cmd" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\cachecontrol\_cmd.py")
+2017-08-06T09:27:56: Parsing "pip._vendor.cachecontrol" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\cachecontrol\__init__.py")
+2017-08-06T09:27:56: Parsing "pip._vendor.cachecontrol.caches.file_cache" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\cachecontrol\caches\file_cache.py")
+2017-08-06T09:27:56: Parsing "pip._vendor.cachecontrol.caches.redis_cache" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\cachecontrol\caches\redis_cache.py")
+2017-08-06T09:27:56: Parsing "pip._vendor.cachecontrol.caches" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\cachecontrol\caches\__init__.py")
+2017-08-06T09:27:56: Parsing "pip._vendor.colorama.ansi" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\colorama\ansi.py")
+2017-08-06T09:27:56: Parsing "pip._vendor.colorama.ansitowin32" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\colorama\ansitowin32.py")
+2017-08-06T09:27:56: Parsing "pip._vendor.colorama.initialise" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\colorama\initialise.py")
+2017-08-06T09:27:56: Parsing "pip._vendor.colorama.win32" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\colorama\win32.py")
+2017-08-06T09:27:56: Parsing "pip._vendor.colorama.winterm" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\colorama\winterm.py")
+2017-08-06T09:27:56: Parsing "pip._vendor.colorama" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\colorama\__init__.py")
+2017-08-06T09:27:56: Parsing "pip._vendor.distlib.compat" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\distlib\compat.py")
+2017-08-06T09:27:56: Parsing "pip._vendor.distlib.database" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\distlib\database.py")
+2017-08-06T09:27:56: Parsing "pip._vendor.distlib.index" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\distlib\index.py")
+2017-08-06T09:27:57: Parsing "pip._vendor.distlib.locators" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\distlib\locators.py")
+2017-08-06T09:27:57: Parsing "pip._vendor.distlib.manifest" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\distlib\manifest.py")
+2017-08-06T09:27:57: Parsing "pip._vendor.distlib.markers" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\distlib\markers.py")
+2017-08-06T09:27:57: Parsing "pip._vendor.distlib.metadata" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\distlib\metadata.py")
+2017-08-06T09:27:57: Parsing "pip._vendor.distlib.resources" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\distlib\resources.py")
+2017-08-06T09:27:57: Parsing "pip._vendor.distlib.scripts" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\distlib\scripts.py")
+2017-08-06T09:27:57: Parsing "pip._vendor.distlib.util" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\distlib\util.py")
+2017-08-06T09:27:57: Parsing "pip._vendor.distlib.version" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\distlib\version.py")
+2017-08-06T09:27:57: Parsing "pip._vendor.distlib.wheel" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\distlib\wheel.py")
+2017-08-06T09:27:57: Parsing "pip._vendor.distlib" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\distlib\__init__.py")
+2017-08-06T09:27:57: Parsing "pip._vendor.distlib._backport.misc" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\distlib\_backport\misc.py")
+2017-08-06T09:27:57: Parsing "pip._vendor.distlib._backport.shutil" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\distlib\_backport\shutil.py")
+2017-08-06T09:27:57: Parsing "pip._vendor.distlib._backport.sysconfig" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\distlib\_backport\sysconfig.py")
+2017-08-06T09:27:57: Parsing "pip._vendor.distlib._backport.tarfile" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\distlib\_backport\tarfile.py")
+2017-08-06T09:27:57: Parsing "pip._vendor.distlib._backport" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\distlib\_backport\__init__.py")
+2017-08-06T09:27:57: Parsing "pip._vendor.html5lib.constants" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\html5lib\constants.py")
+2017-08-06T09:27:57: Parsing "pip._vendor.html5lib.html5parser" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\html5lib\html5parser.py")
+2017-08-06T09:27:57: Parsing "pip._vendor.html5lib.serializer" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\html5lib\serializer.py")
+2017-08-06T09:27:57: Parsing "pip._vendor.html5lib._ihatexml" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\html5lib\_ihatexml.py")
+2017-08-06T09:27:58: Parsing "pip._vendor.html5lib._inputstream" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\html5lib\_inputstream.py")
+2017-08-06T09:27:58: Parsing "pip._vendor.html5lib._tokenizer" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\html5lib\_tokenizer.py")
+2017-08-06T09:27:58: Parsing "pip._vendor.html5lib._utils" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\html5lib\_utils.py")
+2017-08-06T09:27:58: Parsing "pip._vendor.html5lib" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\html5lib\__init__.py")
+2017-08-06T09:27:58: Parsing "pip._vendor.html5lib.filters.alphabeticalattributes" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\html5lib\filters\alphabeticalattributes.py")
+2017-08-06T09:27:58: Parsing "pip._vendor.html5lib.filters.base" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\html5lib\filters\base.py")
+2017-08-06T09:27:58: Parsing "pip._vendor.html5lib.filters.inject_meta_charset" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\html5lib\filters\inject_meta_charset.py")
+2017-08-06T09:27:58: Parsing "pip._vendor.html5lib.filters.lint" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\html5lib\filters\lint.py")
+2017-08-06T09:27:58: Parsing "pip._vendor.html5lib.filters.optionaltags" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\html5lib\filters\optionaltags.py")
+2017-08-06T09:27:58: Parsing "pip._vendor.html5lib.filters.sanitizer" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\html5lib\filters\sanitizer.py")
+2017-08-06T09:27:58: Parsing "pip._vendor.html5lib.filters.whitespace" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\html5lib\filters\whitespace.py")
+2017-08-06T09:27:58: Parsing "pip._vendor.html5lib.filters" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\html5lib\filters\__init__.py")
+2017-08-06T09:27:58: Parsing "pip._vendor.html5lib.treeadapters.genshi" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\html5lib\treeadapters\genshi.py")
+2017-08-06T09:27:58: Parsing "pip._vendor.html5lib.treeadapters.sax" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\html5lib\treeadapters\sax.py")
+2017-08-06T09:27:58: Parsing "pip._vendor.html5lib.treeadapters" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\html5lib\treeadapters\__init__.py")
+2017-08-06T09:27:58: Parsing "pip._vendor.html5lib.treebuilders.base" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\html5lib\treebuilders\base.py")
+2017-08-06T09:27:58: Parsing "pip._vendor.html5lib.treebuilders.dom" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\html5lib\treebuilders\dom.py")
+2017-08-06T09:27:58: Parsing "pip._vendor.html5lib.treebuilders.etree" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\html5lib\treebuilders\etree.py")
+2017-08-06T09:27:58: Parsing "pip._vendor.html5lib.treebuilders.etree_lxml" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\html5lib\treebuilders\etree_lxml.py")
+2017-08-06T09:27:58: Parsing "pip._vendor.html5lib.treebuilders" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\html5lib\treebuilders\__init__.py")
+2017-08-06T09:27:58: Parsing "pip._vendor.html5lib.treewalkers.base" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\html5lib\treewalkers\base.py")
+2017-08-06T09:27:58: Parsing "pip._vendor.html5lib.treewalkers.dom" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\html5lib\treewalkers\dom.py")
+2017-08-06T09:27:58: Parsing "pip._vendor.html5lib.treewalkers.etree" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\html5lib\treewalkers\etree.py")
+2017-08-06T09:27:58: Parsing "pip._vendor.html5lib.treewalkers.etree_lxml" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\html5lib\treewalkers\etree_lxml.py")
+2017-08-06T09:27:58: Parsing "pip._vendor.html5lib.treewalkers.genshi" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\html5lib\treewalkers\genshi.py")
+2017-08-06T09:27:58: Parsing "pip._vendor.html5lib.treewalkers" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\html5lib\treewalkers\__init__.py")
+2017-08-06T09:27:58: Parsing "pip._vendor.html5lib._trie.datrie" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\html5lib\_trie\datrie.py")
+2017-08-06T09:27:58: Parsing "pip._vendor.html5lib._trie.py" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\html5lib\_trie\py.py")
+2017-08-06T09:27:58: Parsing "pip._vendor.html5lib._trie._base" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\html5lib\_trie\_base.py")
+2017-08-06T09:27:58: Parsing "pip._vendor.html5lib._trie" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\html5lib\_trie\__init__.py")
+2017-08-06T09:27:58: Parsing "pip._vendor.lockfile.linklockfile" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\lockfile\linklockfile.py")
+2017-08-06T09:27:58: Parsing "pip._vendor.lockfile.mkdirlockfile" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\lockfile\mkdirlockfile.py")
+2017-08-06T09:27:58: Parsing "pip._vendor.lockfile.pidlockfile" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\lockfile\pidlockfile.py")
+2017-08-06T09:27:58: Parsing "pip._vendor.lockfile.sqlitelockfile" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\lockfile\sqlitelockfile.py")
+2017-08-06T09:27:58: Parsing "pip._vendor.lockfile.symlinklockfile" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\lockfile\symlinklockfile.py")
+2017-08-06T09:27:58: Parsing "pip._vendor.lockfile" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\lockfile\__init__.py")
+2017-08-06T09:27:58: Parsing "pip._vendor.packaging.markers" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\packaging\markers.py")
+2017-08-06T09:27:58: Parsing "pip._vendor.packaging.requirements" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\packaging\requirements.py")
+2017-08-06T09:27:58: Parsing "pip._vendor.packaging.specifiers" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\packaging\specifiers.py")
+2017-08-06T09:27:58: Parsing "pip._vendor.packaging.utils" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\packaging\utils.py")
+2017-08-06T09:27:58: Parsing "pip._vendor.packaging.version" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\packaging\version.py")
+2017-08-06T09:27:58: Parsing "pip._vendor.packaging._compat" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\packaging\_compat.py")
+2017-08-06T09:27:58: Parsing "pip._vendor.packaging._structures" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\packaging\_structures.py")
+2017-08-06T09:27:58: Parsing "pip._vendor.packaging.__about__" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\packaging\__about__.py")
+2017-08-06T09:27:58: Parsing "pip._vendor.packaging" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\packaging\__init__.py")
+2017-08-06T09:27:58: Parsing "pip._vendor.pkg_resources" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\pkg_resources\__init__.py")
+2017-08-06T09:27:58: Parsing "pip._vendor.progress.bar" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\progress\bar.py")
+2017-08-06T09:27:58: Parsing "pip._vendor.progress.counter" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\progress\counter.py")
+2017-08-06T09:27:58: Parsing "pip._vendor.progress.helpers" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\progress\helpers.py")
+2017-08-06T09:27:58: Parsing "pip._vendor.progress.spinner" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\progress\spinner.py")
+2017-08-06T09:27:58: Parsing "pip._vendor.progress" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\progress\__init__.py")
+2017-08-06T09:27:58: Parsing "pip._vendor.requests.adapters" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\adapters.py")
+2017-08-06T09:27:58: Parsing "pip._vendor.requests.api" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\api.py")
+2017-08-06T09:27:58: Parsing "pip._vendor.requests.auth" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\auth.py")
+2017-08-06T09:27:58: Parsing "pip._vendor.requests.certs" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\certs.py")
+2017-08-06T09:27:58: Parsing "pip._vendor.requests.compat" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\compat.py")
+2017-08-06T09:27:58: Parsing "pip._vendor.requests.cookies" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\cookies.py")
+2017-08-06T09:27:58: Parsing "pip._vendor.requests.exceptions" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\exceptions.py")
+2017-08-06T09:27:59: Parsing "pip._vendor.requests.hooks" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\hooks.py")
+2017-08-06T09:27:59: Parsing "pip._vendor.requests.models" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\models.py")
+2017-08-06T09:27:59: Parsing "pip._vendor.requests.sessions" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\sessions.py")
+2017-08-06T09:27:59: Parsing "pip._vendor.requests.status_codes" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\status_codes.py")
+2017-08-06T09:27:59: Parsing "pip._vendor.requests.structures" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\structures.py")
+2017-08-06T09:27:59: Parsing "pip._vendor.requests.utils" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\utils.py")
+2017-08-06T09:27:59: Parsing "pip._vendor.requests" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\__init__.py")
+2017-08-06T09:27:59: Parsing "pip._vendor.requests.packages" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\__init__.py")
+2017-08-06T09:27:59: Parsing "pip._vendor.requests.packages.chardet.big5freq" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\big5freq.py")
+2017-08-06T09:27:59: Parsing "pip._vendor.requests.packages.chardet.big5prober" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\big5prober.py")
+2017-08-06T09:27:59: Parsing "pip._vendor.requests.packages.chardet.chardetect" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\chardetect.py")
+2017-08-06T09:27:59: Parsing "pip._vendor.requests.packages.chardet.chardistribution" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\chardistribution.py")
+2017-08-06T09:27:59: Parsing "pip._vendor.requests.packages.chardet.charsetgroupprober" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\charsetgroupprober.py")
+2017-08-06T09:27:59: Parsing "pip._vendor.requests.packages.chardet.charsetprober" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\charsetprober.py")
+2017-08-06T09:27:59: Parsing "pip._vendor.requests.packages.chardet.codingstatemachine" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\codingstatemachine.py")
+2017-08-06T09:27:59: Parsing "pip._vendor.requests.packages.chardet.compat" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\compat.py")
+2017-08-06T09:27:59: Parsing "pip._vendor.requests.packages.chardet.constants" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\constants.py")
+2017-08-06T09:27:59: Parsing "pip._vendor.requests.packages.chardet.cp949prober" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\cp949prober.py")
+2017-08-06T09:27:59: Parsing "pip._vendor.requests.packages.chardet.escprober" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\escprober.py")
+2017-08-06T09:27:59: Parsing "pip._vendor.requests.packages.chardet.escsm" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\escsm.py")
+2017-08-06T09:27:59: Parsing "pip._vendor.requests.packages.chardet.eucjpprober" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\eucjpprober.py")
+2017-08-06T09:27:59: Parsing "pip._vendor.requests.packages.chardet.euckrfreq" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\euckrfreq.py")
+2017-08-06T09:27:59: Parsing "pip._vendor.requests.packages.chardet.euckrprober" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\euckrprober.py")
+2017-08-06T09:27:59: Parsing "pip._vendor.requests.packages.chardet.euctwfreq" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\euctwfreq.py")
+2017-08-06T09:27:59: Parsing "pip._vendor.requests.packages.chardet.euctwprober" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\euctwprober.py")
+2017-08-06T09:27:59: Parsing "pip._vendor.requests.packages.chardet.gb2312freq" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\gb2312freq.py")
+2017-08-06T09:27:59: Parsing "pip._vendor.requests.packages.chardet.gb2312prober" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\gb2312prober.py")
+2017-08-06T09:27:59: Parsing "pip._vendor.requests.packages.chardet.hebrewprober" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\hebrewprober.py")
+2017-08-06T09:28:00: Parsing "pip._vendor.requests.packages.chardet.jisfreq" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\jisfreq.py")
+2017-08-06T09:28:00: Parsing "pip._vendor.requests.packages.chardet.jpcntx" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\jpcntx.py")
+2017-08-06T09:28:00: Parsing "pip._vendor.requests.packages.chardet.langbulgarianmodel" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\langbulgarianmodel.py")
+2017-08-06T09:28:01: Parsing "pip._vendor.requests.packages.chardet.langcyrillicmodel" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\langcyrillicmodel.py")
+2017-08-06T09:28:01: Parsing "pip._vendor.requests.packages.chardet.langgreekmodel" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\langgreekmodel.py")
+2017-08-06T09:28:01: Parsing "pip._vendor.requests.packages.chardet.langhebrewmodel" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\langhebrewmodel.py")
+2017-08-06T09:28:01: Parsing "pip._vendor.requests.packages.chardet.langhungarianmodel" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\langhungarianmodel.py")
+2017-08-06T09:28:01: Parsing "pip._vendor.requests.packages.chardet.langthaimodel" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\langthaimodel.py")
+2017-08-06T09:28:01: Parsing "pip._vendor.requests.packages.chardet.latin1prober" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\latin1prober.py")
+2017-08-06T09:28:01: Parsing "pip._vendor.requests.packages.chardet.mbcharsetprober" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\mbcharsetprober.py")
+2017-08-06T09:28:01: Parsing "pip._vendor.requests.packages.chardet.mbcsgroupprober" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\mbcsgroupprober.py")
+2017-08-06T09:28:01: Parsing "pip._vendor.requests.packages.chardet.mbcssm" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\mbcssm.py")
+2017-08-06T09:28:01: Parsing "pip._vendor.requests.packages.chardet.sbcharsetprober" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\sbcharsetprober.py")
+2017-08-06T09:28:01: Parsing "pip._vendor.requests.packages.chardet.sbcsgroupprober" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\sbcsgroupprober.py")
+2017-08-06T09:28:01: Parsing "pip._vendor.requests.packages.chardet.sjisprober" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\sjisprober.py")
+2017-08-06T09:28:01: Parsing "pip._vendor.requests.packages.chardet.universaldetector" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\universaldetector.py")
+2017-08-06T09:28:01: Parsing "pip._vendor.requests.packages.chardet.utf8prober" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\utf8prober.py")
+2017-08-06T09:28:02: Parsing "pip._vendor.requests.packages.chardet" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\chardet\__init__.py")
+2017-08-06T09:28:02: Parsing "pip._vendor.requests.packages.urllib3.connection" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\connection.py")
+2017-08-06T09:28:02: Parsing "pip._vendor.requests.packages.urllib3.connectionpool" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\connectionpool.py")
+2017-08-06T09:28:02: Parsing "pip._vendor.requests.packages.urllib3.exceptions" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\exceptions.py")
+2017-08-06T09:28:02: Parsing "pip._vendor.requests.packages.urllib3.fields" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\fields.py")
+2017-08-06T09:28:02: Parsing "pip._vendor.requests.packages.urllib3.filepost" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\filepost.py")
+2017-08-06T09:28:02: Parsing "pip._vendor.requests.packages.urllib3.poolmanager" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\poolmanager.py")
+2017-08-06T09:28:02: Parsing "pip._vendor.requests.packages.urllib3.request" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\request.py")
+2017-08-06T09:28:02: Parsing "pip._vendor.requests.packages.urllib3.response" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\response.py")
+2017-08-06T09:28:02: Parsing "pip._vendor.requests.packages.urllib3._collections" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\_collections.py")
+2017-08-06T09:28:02: Parsing "pip._vendor.requests.packages.urllib3" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\__init__.py")
+2017-08-06T09:28:02: Parsing "pip._vendor.requests.packages.urllib3.contrib.appengine" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\contrib\appengine.py")
+2017-08-06T09:28:02: Parsing "pip._vendor.requests.packages.urllib3.contrib.ntlmpool" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\contrib\ntlmpool.py")
+2017-08-06T09:28:02: Parsing "pip._vendor.requests.packages.urllib3.contrib.pyopenssl" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\contrib\pyopenssl.py")
+2017-08-06T09:28:02: Parsing "pip._vendor.requests.packages.urllib3.contrib.socks" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\contrib\socks.py")
+2017-08-06T09:28:02: Parsing "pip._vendor.requests.packages.urllib3.contrib" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\contrib\__init__.py")
+2017-08-06T09:28:02: Parsing "pip._vendor.requests.packages.urllib3.packages.ordered_dict" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\packages\ordered_dict.py")
+2017-08-06T09:28:02: Parsing "pip._vendor.requests.packages.urllib3.packages.six" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\packages\six.py")
+2017-08-06T09:28:02: Parsing "pip._vendor.requests.packages.urllib3.packages" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\packages\__init__.py")
+2017-08-06T09:28:02: Parsing "pip._vendor.requests.packages.urllib3.packages.ssl_match_hostname._implementation" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\packages\ssl_match_hostname\_implementation.py")
+2017-08-06T09:28:02: Parsing "pip._vendor.requests.packages.urllib3.packages.ssl_match_hostname" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\packages\ssl_match_hostname\__init__.py")
+2017-08-06T09:28:02: Parsing "pip._vendor.requests.packages.urllib3.util.connection" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\util\connection.py")
+2017-08-06T09:28:02: Parsing "pip._vendor.requests.packages.urllib3.util.request" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\util\request.py")
+2017-08-06T09:28:02: Parsing "pip._vendor.requests.packages.urllib3.util.response" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\util\response.py")
+2017-08-06T09:28:02: Parsing "pip._vendor.requests.packages.urllib3.util.retry" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\util\retry.py")
+2017-08-06T09:28:02: Parsing "pip._vendor.requests.packages.urllib3.util.ssl_" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\util\ssl_.py")
+2017-08-06T09:28:02: Parsing "pip._vendor.requests.packages.urllib3.util.timeout" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\util\timeout.py")
+2017-08-06T09:28:02: Parsing "pip._vendor.requests.packages.urllib3.util.url" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\util\url.py")
+2017-08-06T09:28:02: Parsing "pip._vendor.requests.packages.urllib3.util" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\util\__init__.py")
+2017-08-06T09:28:02: Parsing "pip._vendor.webencodings.labels" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\webencodings\labels.py")
+2017-08-06T09:28:02: Parsing "pip._vendor.webencodings.mklabels" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\webencodings\mklabels.py")
+2017-08-06T09:28:02: Parsing "pip._vendor.webencodings.tests" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\webencodings\tests.py")
+2017-08-06T09:28:02: Parsing "pip._vendor.webencodings.x_user_defined" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\webencodings\x_user_defined.py")
+2017-08-06T09:28:02: Parsing "pip._vendor.webencodings" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pip\_vendor\webencodings\__init__.py")
+2017-08-06T09:28:02: Parsing complete
+2017-08-06T09:28:02: Analyzing "pip.basecommand"
+2017-08-06T09:28:02: Analyzing "pip.baseparser"
+2017-08-06T09:28:02: Analyzing "pip.cmdoptions"
+2017-08-06T09:28:02: Analyzing "pip.download"
+2017-08-06T09:28:02: Analyzing "pip.exceptions"
+2017-08-06T09:28:02: Analyzing "pip.index"
+2017-08-06T09:28:02: Analyzing "pip.locations"
+2017-08-06T09:28:02: Analyzing "pip.pep425tags"
+2017-08-06T09:28:02: Analyzing "pip.status_codes"
+2017-08-06T09:28:02: Analyzing "pip.wheel"
+2017-08-06T09:28:02: Analyzing "pip"
+2017-08-06T09:28:02: Analyzing "pip.__main__"
+2017-08-06T09:28:02: Analyzing "pip.commands.check"
+2017-08-06T09:28:02: Analyzing "pip.commands.completion"
+2017-08-06T09:28:02: Analyzing "pip.commands.download"
+2017-08-06T09:28:02: Analyzing "pip.commands.freeze"
+2017-08-06T09:28:02: Analyzing "pip.commands.hash"
+2017-08-06T09:28:02: Analyzing "pip.commands.help"
+2017-08-06T09:28:02: Analyzing "pip.commands.install"
+2017-08-06T09:28:02: Analyzing "pip.commands.list"
+2017-08-06T09:28:02: Analyzing "pip.commands.search"
+2017-08-06T09:28:02: Analyzing "pip.commands.show"
+2017-08-06T09:28:02: Analyzing "pip.commands.uninstall"
+2017-08-06T09:28:02: Analyzing "pip.commands.wheel"
+2017-08-06T09:28:02: Analyzing "pip.commands"
+2017-08-06T09:28:02: Analyzing "pip.compat.dictconfig"
+2017-08-06T09:28:02: Analyzing "pip.compat"
+2017-08-06T09:28:02: Analyzing "pip.models.index"
+2017-08-06T09:28:02: Analyzing "pip.models"
+2017-08-06T09:28:02: Analyzing "pip.operations.check"
+2017-08-06T09:28:02: Analyzing "pip.operations.freeze"
+2017-08-06T09:28:02: Analyzing "pip.operations"
+2017-08-06T09:28:02: Analyzing "pip.req.req_file"
+2017-08-06T09:28:02: Analyzing "pip.req.req_install"
+2017-08-06T09:28:02: Analyzing "pip.req.req_set"
+2017-08-06T09:28:02: Analyzing "pip.req.req_uninstall"
+2017-08-06T09:28:02: Analyzing "pip.req"
+2017-08-06T09:28:02: Analyzing "pip.utils.appdirs"
+2017-08-06T09:28:02: Analyzing "pip.utils.build"
+2017-08-06T09:28:02: Analyzing "pip.utils.deprecation"
+2017-08-06T09:28:02: Analyzing "pip.utils.encoding"
+2017-08-06T09:28:02: Analyzing "pip.utils.filesystem"
+2017-08-06T09:28:02: Analyzing "pip.utils.glibc"
+2017-08-06T09:28:02: Analyzing "pip.utils.hashes"
+2017-08-06T09:28:02: Analyzing "pip.utils.logging"
+2017-08-06T09:28:02: Analyzing "pip.utils.outdated"
+2017-08-06T09:28:02: Analyzing "pip.utils.packaging"
+2017-08-06T09:28:02: Analyzing "pip.utils.setuptools_build"
+2017-08-06T09:28:02: Analyzing "pip.utils.ui"
+2017-08-06T09:28:02: Analyzing "pip.utils"
+2017-08-06T09:28:02: Analyzing "pip.vcs.bazaar"
+2017-08-06T09:28:02: Analyzing "pip.vcs.git"
+2017-08-06T09:28:02: Analyzing "pip.vcs.mercurial"
+2017-08-06T09:28:02: Analyzing "pip.vcs.subversion"
+2017-08-06T09:28:02: Analyzing "pip.vcs"
+2017-08-06T09:28:02: Analyzing "pip._vendor.appdirs"
+2017-08-06T09:28:02: Analyzing "pip._vendor.distro"
+2017-08-06T09:28:02: Analyzing "pip._vendor.ipaddress"
+2017-08-06T09:28:02: Analyzing "pip._vendor.ordereddict"
+2017-08-06T09:28:02: Analyzing "pip._vendor.pyparsing"
+2017-08-06T09:28:02: Analyzing "pip._vendor.retrying"
+2017-08-06T09:28:02: Analyzing "pip._vendor.six"
+2017-08-06T09:28:02: Analyzing "pip._vendor"
+2017-08-06T09:28:02: Analyzing "pip._vendor.cachecontrol.adapter"
+2017-08-06T09:28:02: Analyzing "pip._vendor.cachecontrol.cache"
+2017-08-06T09:28:02: Analyzing "pip._vendor.cachecontrol.compat"
+2017-08-06T09:28:02: Analyzing "pip._vendor.cachecontrol.controller"
+2017-08-06T09:28:02: Analyzing "pip._vendor.cachecontrol.filewrapper"
+2017-08-06T09:28:02: Analyzing "pip._vendor.cachecontrol.heuristics"
+2017-08-06T09:28:02: Analyzing "pip._vendor.cachecontrol.serialize"
+2017-08-06T09:28:02: Analyzing "pip._vendor.cachecontrol.wrapper"
+2017-08-06T09:28:02: Analyzing "pip._vendor.cachecontrol._cmd"
+2017-08-06T09:28:02: Analyzing "pip._vendor.cachecontrol"
+2017-08-06T09:28:02: Analyzing "pip._vendor.cachecontrol.caches.file_cache"
+2017-08-06T09:28:02: Analyzing "pip._vendor.cachecontrol.caches.redis_cache"
+2017-08-06T09:28:02: Analyzing "pip._vendor.cachecontrol.caches"
+2017-08-06T09:28:02: Analyzing "pip._vendor.colorama.ansi"
+2017-08-06T09:28:02: Analyzing "pip._vendor.colorama.ansitowin32"
+2017-08-06T09:28:02: Analyzing "pip._vendor.colorama.initialise"
+2017-08-06T09:28:02: Analyzing "pip._vendor.colorama.win32"
+2017-08-06T09:28:02: Analyzing "pip._vendor.colorama.winterm"
+2017-08-06T09:28:02: Analyzing "pip._vendor.colorama"
+2017-08-06T09:28:02: Analyzing "pip._vendor.distlib.compat"
+2017-08-06T09:28:02: Analyzing "pip._vendor.distlib.database"
+2017-08-06T09:28:03: Analyzing "pip._vendor.distlib.index"
+2017-08-06T09:28:03: Analyzing "pip._vendor.distlib.locators"
+2017-08-06T09:28:03: Analyzing "pip._vendor.distlib.manifest"
+2017-08-06T09:28:03: Analyzing "pip._vendor.distlib.markers"
+2017-08-06T09:28:03: Analyzing "pip._vendor.distlib.metadata"
+2017-08-06T09:28:03: Analyzing "pip._vendor.distlib.resources"
+2017-08-06T09:28:03: Analyzing "pip._vendor.distlib.scripts"
+2017-08-06T09:28:03: Analyzing "pip._vendor.distlib.util"
+2017-08-06T09:28:03: Analyzing "pip._vendor.distlib.version"
+2017-08-06T09:28:03: Analyzing "pip._vendor.distlib.wheel"
+2017-08-06T09:28:03: Analyzing "pip._vendor.distlib"
+2017-08-06T09:28:03: Analyzing "pip._vendor.distlib._backport.misc"
+2017-08-06T09:28:03: Analyzing "pip._vendor.distlib._backport.shutil"
+2017-08-06T09:28:03: Analyzing "pip._vendor.distlib._backport.sysconfig"
+2017-08-06T09:28:03: Analyzing "pip._vendor.distlib._backport.tarfile"
+2017-08-06T09:28:03: Analyzing "pip._vendor.distlib._backport"
+2017-08-06T09:28:03: Analyzing "pip._vendor.html5lib.constants"
+2017-08-06T09:28:03: Analyzing "pip._vendor.html5lib.html5parser"
+2017-08-06T09:28:03: Analyzing "pip._vendor.html5lib.serializer"
+2017-08-06T09:28:03: Analyzing "pip._vendor.html5lib._ihatexml"
+2017-08-06T09:28:03: Analyzing "pip._vendor.html5lib._inputstream"
+2017-08-06T09:28:03: Analyzing "pip._vendor.html5lib._tokenizer"
+2017-08-06T09:28:03: Analyzing "pip._vendor.html5lib._utils"
+2017-08-06T09:28:03: Analyzing "pip._vendor.html5lib"
+2017-08-06T09:28:03: Analyzing "pip._vendor.html5lib.filters.alphabeticalattributes"
+2017-08-06T09:28:03: Analyzing "pip._vendor.html5lib.filters.base"
+2017-08-06T09:28:03: Analyzing "pip._vendor.html5lib.filters.inject_meta_charset"
+2017-08-06T09:28:03: Analyzing "pip._vendor.html5lib.filters.lint"
+2017-08-06T09:28:03: Analyzing "pip._vendor.html5lib.filters.optionaltags"
+2017-08-06T09:28:03: Analyzing "pip._vendor.html5lib.filters.sanitizer"
+2017-08-06T09:28:03: Analyzing "pip._vendor.html5lib.filters.whitespace"
+2017-08-06T09:28:03: Analyzing "pip._vendor.html5lib.filters"
+2017-08-06T09:28:03: Analyzing "pip._vendor.html5lib.treeadapters.genshi"
+2017-08-06T09:28:03: Analyzing "pip._vendor.html5lib.treeadapters.sax"
+2017-08-06T09:28:03: Analyzing "pip._vendor.html5lib.treeadapters"
+2017-08-06T09:28:03: Analyzing "pip._vendor.html5lib.treebuilders.base"
+2017-08-06T09:28:03: Analyzing "pip._vendor.html5lib.treebuilders.dom"
+2017-08-06T09:28:03: Analyzing "pip._vendor.html5lib.treebuilders.etree"
+2017-08-06T09:28:03: Analyzing "pip._vendor.html5lib.treebuilders.etree_lxml"
+2017-08-06T09:28:03: Analyzing "pip._vendor.html5lib.treebuilders"
+2017-08-06T09:28:03: Analyzing "pip._vendor.html5lib.treewalkers.base"
+2017-08-06T09:28:03: Analyzing "pip._vendor.html5lib.treewalkers.dom"
+2017-08-06T09:28:03: Analyzing "pip._vendor.html5lib.treewalkers.etree"
+2017-08-06T09:28:03: Analyzing "pip._vendor.html5lib.treewalkers.etree_lxml"
+2017-08-06T09:28:03: Analyzing "pip._vendor.html5lib.treewalkers.genshi"
+2017-08-06T09:28:03: Analyzing "pip._vendor.html5lib.treewalkers"
+2017-08-06T09:28:03: Analyzing "pip._vendor.html5lib._trie.datrie"
+2017-08-06T09:28:03: Analyzing "pip._vendor.html5lib._trie.py"
+2017-08-06T09:28:03: Analyzing "pip._vendor.html5lib._trie._base"
+2017-08-06T09:28:03: Analyzing "pip._vendor.html5lib._trie"
+2017-08-06T09:28:03: Analyzing "pip._vendor.lockfile.linklockfile"
+2017-08-06T09:28:03: Analyzing "pip._vendor.lockfile.mkdirlockfile"
+2017-08-06T09:28:03: Analyzing "pip._vendor.lockfile.pidlockfile"
+2017-08-06T09:28:03: Analyzing "pip._vendor.lockfile.sqlitelockfile"
+2017-08-06T09:28:03: Analyzing "pip._vendor.lockfile.symlinklockfile"
+2017-08-06T09:28:03: Analyzing "pip._vendor.lockfile"
+2017-08-06T09:28:03: Analyzing "pip._vendor.packaging.markers"
+2017-08-06T09:28:03: Analyzing "pip._vendor.packaging.requirements"
+2017-08-06T09:28:03: Analyzing "pip._vendor.packaging.specifiers"
+2017-08-06T09:28:03: Analyzing "pip._vendor.packaging.utils"
+2017-08-06T09:28:03: Analyzing "pip._vendor.packaging.version"
+2017-08-06T09:28:03: Analyzing "pip._vendor.packaging._compat"
+2017-08-06T09:28:03: Analyzing "pip._vendor.packaging._structures"
+2017-08-06T09:28:03: Analyzing "pip._vendor.packaging.__about__"
+2017-08-06T09:28:03: Analyzing "pip._vendor.packaging"
+2017-08-06T09:28:03: Analyzing "pip._vendor.pkg_resources"
+2017-08-06T09:28:03: Analyzing "pip._vendor.progress.bar"
+2017-08-06T09:28:03: Analyzing "pip._vendor.progress.counter"
+2017-08-06T09:28:03: Analyzing "pip._vendor.progress.helpers"
+2017-08-06T09:28:03: Analyzing "pip._vendor.progress.spinner"
+2017-08-06T09:28:03: Analyzing "pip._vendor.progress"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.adapters"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.api"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.auth"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.certs"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.compat"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.cookies"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.exceptions"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.hooks"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.models"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.sessions"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.status_codes"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.structures"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.utils"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.chardet.big5freq"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.chardet.big5prober"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.chardet.chardetect"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.chardet.chardistribution"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.chardet.charsetgroupprober"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.chardet.charsetprober"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.chardet.codingstatemachine"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.chardet.compat"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.chardet.constants"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.chardet.cp949prober"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.chardet.escprober"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.chardet.escsm"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.chardet.eucjpprober"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.chardet.euckrfreq"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.chardet.euckrprober"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.chardet.euctwfreq"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.chardet.euctwprober"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.chardet.gb2312freq"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.chardet.gb2312prober"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.chardet.hebrewprober"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.chardet.jisfreq"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.chardet.jpcntx"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.chardet.langbulgarianmodel"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.chardet.langcyrillicmodel"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.chardet.langgreekmodel"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.chardet.langhebrewmodel"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.chardet.langhungarianmodel"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.chardet.langthaimodel"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.chardet.latin1prober"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.chardet.mbcharsetprober"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.chardet.mbcsgroupprober"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.chardet.mbcssm"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.chardet.sbcharsetprober"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.chardet.sbcsgroupprober"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.chardet.sjisprober"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.chardet.universaldetector"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.chardet.utf8prober"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.chardet"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.urllib3.connection"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.urllib3.connectionpool"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.urllib3.exceptions"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.urllib3.fields"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.urllib3.filepost"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.urllib3.poolmanager"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.urllib3.request"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.urllib3.response"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.urllib3._collections"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.urllib3"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.urllib3.contrib.appengine"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.urllib3.contrib.ntlmpool"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.urllib3.contrib.pyopenssl"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.urllib3.contrib.socks"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.urllib3.contrib"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.urllib3.packages.ordered_dict"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.urllib3.packages.six"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.urllib3.packages"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.urllib3.packages.ssl_match_hostname._implementation"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.urllib3.packages.ssl_match_hostname"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.urllib3.util.connection"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.urllib3.util.request"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.urllib3.util.response"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.urllib3.util.retry"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.urllib3.util.ssl_"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.urllib3.util.timeout"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.urllib3.util.url"
+2017-08-06T09:28:03: Analyzing "pip._vendor.requests.packages.urllib3.util"
+2017-08-06T09:28:03: Analyzing "pip._vendor.webencodings.labels"
+2017-08-06T09:28:03: Analyzing "pip._vendor.webencodings.mklabels"
+2017-08-06T09:28:03: Analyzing "pip._vendor.webencodings.tests"
+2017-08-06T09:28:03: Analyzing "pip._vendor.webencodings.x_user_defined"
+2017-08-06T09:28:03: Analyzing "pip._vendor.webencodings"
+2017-08-06T09:28:03: Starting analysis of 241 modules
+2017-08-06T09:28:54: Analysis complete
+2017-08-06T09:28:54: Saving group "C:\Insight\InsightApplication\venv\Lib\site-packages\pip"
+2017-08-06T09:28:56: End of group "C:\Insight\InsightApplication\venv\Lib\site-packages\pip"
+2017-08-06T09:28:56: Start group "C:\Insight\InsightApplication\venv\Lib\site-packages\pkg_resources" with 15 files
+2017-08-06T09:28:56: Parsing "pkg_resources" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pkg_resources\__init__.py")
+2017-08-06T09:28:56: Parsing "pkg_resources.extern" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pkg_resources\extern\__init__.py")
+2017-08-06T09:28:56: Parsing "pkg_resources._vendor.appdirs" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pkg_resources\_vendor\appdirs.py")
+2017-08-06T09:28:56: Parsing "pkg_resources._vendor.pyparsing" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pkg_resources\_vendor\pyparsing.py")
+2017-08-06T09:28:56: Parsing "pkg_resources._vendor.six" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pkg_resources\_vendor\six.py")
+2017-08-06T09:28:56: Parsing "pkg_resources._vendor" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pkg_resources\_vendor\__init__.py")
+2017-08-06T09:28:56: Parsing "pkg_resources._vendor.packaging.markers" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pkg_resources\_vendor\packaging\markers.py")
+2017-08-06T09:28:56: Parsing "pkg_resources._vendor.packaging.requirements" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pkg_resources\_vendor\packaging\requirements.py")
+2017-08-06T09:28:56: Parsing "pkg_resources._vendor.packaging.specifiers" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pkg_resources\_vendor\packaging\specifiers.py")
+2017-08-06T09:28:56: Parsing "pkg_resources._vendor.packaging.utils" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pkg_resources\_vendor\packaging\utils.py")
+2017-08-06T09:28:56: Parsing "pkg_resources._vendor.packaging.version" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pkg_resources\_vendor\packaging\version.py")
+2017-08-06T09:28:56: Parsing "pkg_resources._vendor.packaging._compat" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pkg_resources\_vendor\packaging\_compat.py")
+2017-08-06T09:28:56: Parsing "pkg_resources._vendor.packaging._structures" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pkg_resources\_vendor\packaging\_structures.py")
+2017-08-06T09:28:56: Parsing "pkg_resources._vendor.packaging.__about__" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pkg_resources\_vendor\packaging\__about__.py")
+2017-08-06T09:28:56: Parsing "pkg_resources._vendor.packaging" ("C:\Insight\InsightApplication\venv\Lib\site-packages\pkg_resources\_vendor\packaging\__init__.py")
+2017-08-06T09:28:56: Parsing complete
+2017-08-06T09:28:56: Analyzing "pkg_resources"
+2017-08-06T09:28:56: Analyzing "pkg_resources.extern"
+2017-08-06T09:28:56: Analyzing "pkg_resources._vendor.appdirs"
+2017-08-06T09:28:56: Analyzing "pkg_resources._vendor.pyparsing"
+2017-08-06T09:28:56: Analyzing "pkg_resources._vendor.six"
+2017-08-06T09:28:56: Analyzing "pkg_resources._vendor"
+2017-08-06T09:28:56: Analyzing "pkg_resources._vendor.packaging.markers"
+2017-08-06T09:28:56: Analyzing "pkg_resources._vendor.packaging.requirements"
+2017-08-06T09:28:56: Analyzing "pkg_resources._vendor.packaging.specifiers"
+2017-08-06T09:28:56: Analyzing "pkg_resources._vendor.packaging.utils"
+2017-08-06T09:28:56: Analyzing "pkg_resources._vendor.packaging.version"
+2017-08-06T09:28:56: Analyzing "pkg_resources._vendor.packaging._compat"
+2017-08-06T09:28:56: Analyzing "pkg_resources._vendor.packaging._structures"
+2017-08-06T09:28:56: Analyzing "pkg_resources._vendor.packaging.__about__"
+2017-08-06T09:28:56: Analyzing "pkg_resources._vendor.packaging"
+2017-08-06T09:28:56: Starting analysis of 15 modules
+2017-08-06T09:29:02: Analysis complete
+2017-08-06T09:29:02: Saving group "C:\Insight\InsightApplication\venv\Lib\site-packages\pkg_resources"
+2017-08-06T09:29:03: End of group "C:\Insight\InsightApplication\venv\Lib\site-packages\pkg_resources"
+2017-08-06T09:29:03: Start group "C:\Insight\InsightApplication\venv\Lib\site-packages\setuptools" with 44 files
+2017-08-06T09:29:03: Parsing "setuptools.archive_util" ("C:\Insight\InsightApplication\venv\Lib\site-packages\setuptools\archive_util.py")
+2017-08-06T09:29:03: Parsing "setuptools.depends" ("C:\Insight\InsightApplication\venv\Lib\site-packages\setuptools\depends.py")
+2017-08-06T09:29:03: Parsing "setuptools.dist" ("C:\Insight\InsightApplication\venv\Lib\site-packages\setuptools\dist.py")
+2017-08-06T09:29:03: Parsing "setuptools.extension" ("C:\Insight\InsightApplication\venv\Lib\site-packages\setuptools\extension.py")
+2017-08-06T09:29:03: Parsing "setuptools.glob" ("C:\Insight\InsightApplication\venv\Lib\site-packages\setuptools\glob.py")
+2017-08-06T09:29:03: Parsing "setuptools.launch" ("C:\Insight\InsightApplication\venv\Lib\site-packages\setuptools\launch.py")
+2017-08-06T09:29:03: Parsing "setuptools.lib2to3_ex" ("C:\Insight\InsightApplication\venv\Lib\site-packages\setuptools\lib2to3_ex.py")
+2017-08-06T09:29:03: Parsing "setuptools.monkey" ("C:\Insight\InsightApplication\venv\Lib\site-packages\setuptools\monkey.py")
+2017-08-06T09:29:03: Parsing "setuptools.msvc" ("C:\Insight\InsightApplication\venv\Lib\site-packages\setuptools\msvc.py")
+2017-08-06T09:29:03: Parsing "setuptools.namespaces" ("C:\Insight\InsightApplication\venv\Lib\site-packages\setuptools\namespaces.py")
+2017-08-06T09:29:03: Parsing "setuptools.package_index" ("C:\Insight\InsightApplication\venv\Lib\site-packages\setuptools\package_index.py")
+2017-08-06T09:29:03: Parsing "setuptools.py26compat" ("C:\Insight\InsightApplication\venv\Lib\site-packages\setuptools\py26compat.py")
+2017-08-06T09:29:03: Parsing "setuptools.py27compat" ("C:\Insight\InsightApplication\venv\Lib\site-packages\setuptools\py27compat.py")
+2017-08-06T09:29:03: Parsing "setuptools.py31compat" ("C:\Insight\InsightApplication\venv\Lib\site-packages\setuptools\py31compat.py")
+2017-08-06T09:29:03: Parsing "setuptools.sandbox" ("C:\Insight\InsightApplication\venv\Lib\site-packages\setuptools\sandbox.py")
+2017-08-06T09:29:03: Parsing "setuptools.ssl_support" ("C:\Insight\InsightApplication\venv\Lib\site-packages\setuptools\ssl_support.py")
+2017-08-06T09:29:03: Parsing "setuptools.unicode_utils" ("C:\Insight\InsightApplication\venv\Lib\site-packages\setuptools\unicode_utils.py")
+2017-08-06T09:29:03: Parsing "setuptools.version" ("C:\Insight\InsightApplication\venv\Lib\site-packages\setuptools\version.py")
+2017-08-06T09:29:03: Parsing "setuptools.windows_support" ("C:\Insight\InsightApplication\venv\Lib\site-packages\setuptools\windows_support.py")
+2017-08-06T09:29:03: Parsing "setuptools" ("C:\Insight\InsightApplication\venv\Lib\site-packages\setuptools\__init__.py")
+2017-08-06T09:29:03: Parsing "setuptools.command.alias" ("C:\Insight\InsightApplication\venv\Lib\site-packages\setuptools\command\alias.py")
+2017-08-06T09:29:03: Parsing "setuptools.command.bdist_egg" ("C:\Insight\InsightApplication\venv\Lib\site-packages\setuptools\command\bdist_egg.py")
+2017-08-06T09:29:03: Parsing "setuptools.command.bdist_rpm" ("C:\Insight\InsightApplication\venv\Lib\site-packages\setuptools\command\bdist_rpm.py")
+2017-08-06T09:29:03: Parsing "setuptools.command.bdist_wininst" ("C:\Insight\InsightApplication\venv\Lib\site-packages\setuptools\command\bdist_wininst.py")
+2017-08-06T09:29:03: Parsing "setuptools.command.build_ext" ("C:\Insight\InsightApplication\venv\Lib\site-packages\setuptools\command\build_ext.py")
+2017-08-06T09:29:03: Parsing "setuptools.command.build_py" ("C:\Insight\InsightApplication\venv\Lib\site-packages\setuptools\command\build_py.py")
+2017-08-06T09:29:03: Parsing "setuptools.command.develop" ("C:\Insight\InsightApplication\venv\Lib\site-packages\setuptools\command\develop.py")
+2017-08-06T09:29:03: Parsing "setuptools.command.easy_install" ("C:\Insight\InsightApplication\venv\Lib\site-packages\setuptools\command\easy_install.py")
+2017-08-06T09:29:03: Parsing "setuptools.command.egg_info" ("C:\Insight\InsightApplication\venv\Lib\site-packages\setuptools\command\egg_info.py")
+2017-08-06T09:29:03: Parsing "setuptools.command.install" ("C:\Insight\InsightApplication\venv\Lib\site-packages\setuptools\command\install.py")
+2017-08-06T09:29:03: Parsing "setuptools.command.install_egg_info" ("C:\Insight\InsightApplication\venv\Lib\site-packages\setuptools\command\install_egg_info.py")
+2017-08-06T09:29:03: Parsing "setuptools.command.install_lib" ("C:\Insight\InsightApplication\venv\Lib\site-packages\setuptools\command\install_lib.py")
+2017-08-06T09:29:03: Parsing "setuptools.command.install_scripts" ("C:\Insight\InsightApplication\venv\Lib\site-packages\setuptools\command\install_scripts.py")
+2017-08-06T09:29:03: Parsing "setuptools.command.py36compat" ("C:\Insight\InsightApplication\venv\Lib\site-packages\setuptools\command\py36compat.py")
+2017-08-06T09:29:03: Parsing "setuptools.command.register" ("C:\Insight\InsightApplication\venv\Lib\site-packages\setuptools\command\register.py")
+2017-08-06T09:29:03: Parsing "setuptools.command.rotate" ("C:\Insight\InsightApplication\venv\Lib\site-packages\setuptools\command\rotate.py")
+2017-08-06T09:29:03: Parsing "setuptools.command.saveopts" ("C:\Insight\InsightApplication\venv\Lib\site-packages\setuptools\command\saveopts.py")
+2017-08-06T09:29:03: Parsing "setuptools.command.sdist" ("C:\Insight\InsightApplication\venv\Lib\site-packages\setuptools\command\sdist.py")
+2017-08-06T09:29:03: Parsing "setuptools.command.setopt" ("C:\Insight\InsightApplication\venv\Lib\site-packages\setuptools\command\setopt.py")
+2017-08-06T09:29:03: Parsing "setuptools.command.test" ("C:\Insight\InsightApplication\venv\Lib\site-packages\setuptools\command\test.py")
+2017-08-06T09:29:03: Parsing "setuptools.command.upload" ("C:\Insight\InsightApplication\venv\Lib\site-packages\setuptools\command\upload.py")
+2017-08-06T09:29:03: Parsing "setuptools.command.upload_docs" ("C:\Insight\InsightApplication\venv\Lib\site-packages\setuptools\command\upload_docs.py")
+2017-08-06T09:29:03: Parsing "setuptools.command" ("C:\Insight\InsightApplication\venv\Lib\site-packages\setuptools\command\__init__.py")
+2017-08-06T09:29:03: Parsing "setuptools.extern" ("C:\Insight\InsightApplication\venv\Lib\site-packages\setuptools\extern\__init__.py")
+2017-08-06T09:29:03: Parsing complete
+2017-08-06T09:29:03: Analyzing "setuptools.archive_util"
+2017-08-06T09:29:03: Analyzing "setuptools.depends"
+2017-08-06T09:29:03: Analyzing "setuptools.dist"
+2017-08-06T09:29:03: Analyzing "setuptools.extension"
+2017-08-06T09:29:03: Analyzing "setuptools.glob"
+2017-08-06T09:29:03: Analyzing "setuptools.launch"
+2017-08-06T09:29:03: Analyzing "setuptools.lib2to3_ex"
+2017-08-06T09:29:03: Analyzing "setuptools.monkey"
+2017-08-06T09:29:03: Analyzing "setuptools.msvc"
+2017-08-06T09:29:03: Analyzing "setuptools.namespaces"
+2017-08-06T09:29:03: Analyzing "setuptools.package_index"
+2017-08-06T09:29:03: Analyzing "setuptools.py26compat"
+2017-08-06T09:29:03: Analyzing "setuptools.py27compat"
+2017-08-06T09:29:03: Analyzing "setuptools.py31compat"
+2017-08-06T09:29:03: Analyzing "setuptools.sandbox"
+2017-08-06T09:29:03: Analyzing "setuptools.ssl_support"
+2017-08-06T09:29:03: Analyzing "setuptools.unicode_utils"
+2017-08-06T09:29:03: Analyzing "setuptools.version"
+2017-08-06T09:29:03: Analyzing "setuptools.windows_support"
+2017-08-06T09:29:03: Analyzing "setuptools"
+2017-08-06T09:29:03: Analyzing "setuptools.command.alias"
+2017-08-06T09:29:03: Analyzing "setuptools.command.bdist_egg"
+2017-08-06T09:29:03: Analyzing "setuptools.command.bdist_rpm"
+2017-08-06T09:29:03: Analyzing "setuptools.command.bdist_wininst"
+2017-08-06T09:29:03: Analyzing "setuptools.command.build_ext"
+2017-08-06T09:29:03: Analyzing "setuptools.command.build_py"
+2017-08-06T09:29:03: Analyzing "setuptools.command.develop"
+2017-08-06T09:29:03: Analyzing "setuptools.command.easy_install"
+2017-08-06T09:29:03: Analyzing "setuptools.command.egg_info"
+2017-08-06T09:29:03: Analyzing "setuptools.command.install"
+2017-08-06T09:29:03: Analyzing "setuptools.command.install_egg_info"
+2017-08-06T09:29:03: Analyzing "setuptools.command.install_lib"
+2017-08-06T09:29:03: Analyzing "setuptools.command.install_scripts"
+2017-08-06T09:29:03: Analyzing "setuptools.command.py36compat"
+2017-08-06T09:29:03: Analyzing "setuptools.command.register"
+2017-08-06T09:29:03: Analyzing "setuptools.command.rotate"
+2017-08-06T09:29:03: Analyzing "setuptools.command.saveopts"
+2017-08-06T09:29:03: Analyzing "setuptools.command.sdist"
+2017-08-06T09:29:03: Analyzing "setuptools.command.setopt"
+2017-08-06T09:29:03: Analyzing "setuptools.command.test"
+2017-08-06T09:29:03: Analyzing "setuptools.command.upload"
+2017-08-06T09:29:03: Analyzing "setuptools.command.upload_docs"
+2017-08-06T09:29:03: Analyzing "setuptools.command"
+2017-08-06T09:29:03: Analyzing "setuptools.extern"
+2017-08-06T09:29:03: Starting analysis of 44 modules
+2017-08-06T09:29:08: Analysis complete
+2017-08-06T09:29:08: Saving group "C:\Insight\InsightApplication\venv\Lib\site-packages\setuptools"
+2017-08-06T09:29:08: End of group "C:\Insight\InsightApplication\venv\Lib\site-packages\setuptools"
+2017-08-06T09:29:10: Deleting 0 files
+
+2017-08-06T09:35:43: Start analysis
+2017-08-06T09:35:43: [WARNING] Library was set explicitly - skipping path detection
+2017-08-06T09:35:43: IncludeModulesFromModulePath = win32com
+2017-08-06T09:35:45: Deleting 0 files
