@@ -33,7 +33,7 @@ class Extractor():
           genre = g.name
           # TODO:  compute length 
 
-          m = Movie(title, generator, size, fileType, length) 
+          m = Movie(title, genre, size, fileType, 0) 
           g.addMovie(m.title)
 
       self.movieDb.addGenre(g)

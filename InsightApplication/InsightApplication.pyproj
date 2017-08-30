@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>fb94558c-0814-4527-b493-78a56f8350a3</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>InsightApplication.py</StartupFile>
+    <StartupFile>src\InsightApplication.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,10 +24,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="InsightApplication.py" />
+    <Compile Include="src\InsightApplication.py" />
     <Compile Include="src\DataManger.py" />
     <Compile Include="src\Datatypes.py" />
     <Compile Include="src\Extractor.py" />
+    <Compile Include="src\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="src\" />

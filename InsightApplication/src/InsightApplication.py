@@ -1,4 +1,6 @@
+# !/usr/local/bin/python
 from tkinter import *
+from tkinter import ttk
 import easygui
 
 from DataManger import *
@@ -84,10 +86,16 @@ class InsightApplication():
     self.dataManger = DataManager()
 
     self.main = Tk()
+    self.frame = Frame(self.main)
+    self.frame.pack()
 
-    self.tabbedInterface = DynamicGenreNotebook(self.main, self.selectMovieCb)
-    self.dbSyncButton = Button(self.main, text = "Sync Database", command = self.dbSyncCb)
-    self.loadDbButton = Button(self.main, text = "Load Database", command = self.loadDbCb)
+    self.tabbedInterface = DynamicGenreNotebook(self.frame, self.selectMovieCb)
+    self.dbSyncButton = Button(self.frame, text = "Sync Database", command = self.dbSyncCb)
+    self.loadDbButton = Button(self.frame, text = "Load Database", command = self.loadDbCb)
+
+    self.tabbedInterface.pack()
+    self.dbSyncButton.pack()
+    self.loadDbButton.pack()
 
     self.main.mainloop()
 
@@ -99,7 +107,10 @@ class InsightApplication():
     Args:
       None
     '''
+    folder = easygui.diropenbox()
+    self.dataManger.setRootDirectory(folder)
     self.dataManger.runExtraction()
+
     if self.dataManger.movieDb:
       self.tabbedInterface.generateTabs(self.dataManger.movieDb)
 
@@ -152,4 +163,9 @@ class InsightApplication():
     Args:
       movie - movie object.
     '''
+    pass
+
+if __name__ == '__main__':
+  app = InsightApplication()
+  while 1:
     pass
