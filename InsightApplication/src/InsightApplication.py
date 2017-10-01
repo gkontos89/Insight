@@ -17,7 +17,7 @@ class MovieListbox(Listbox):
       master - container for where the listbox will be stored
     '''
     super().__init__(master, cnf, **kw)
-    self.config['selectmode'] = SINGLE
+    self.config(selectmode = SINGLE)
     self.bind('<<ListboxSelect>>', self.onSelect)
     self.parentContainer = master
 
@@ -74,7 +74,7 @@ class DynamicGenreNotebook(ttk.Notebook):
     for genreName, genreObject in genres.items():
       listbox = MovieListbox(self)
       listbox.generateMovieList(genreObject.movies)
-      self.add(genreName, listbox)
+      self.add(listbox, text=genreName)
 
 class InsightApplication():
   def __init__(self):
@@ -112,7 +112,7 @@ class InsightApplication():
     self.dataManger.runExtraction()
 
     if self.dataManger.movieDb:
-      self.tabbedInterface.generateTabs(self.dataManger.movieDb)
+      self.tabbedInterface.generateTabs(self.dataManger.movieDb.genres)
 
   def loadDbCb(self):
     '''

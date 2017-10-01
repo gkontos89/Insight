@@ -36,7 +36,7 @@ class Extractor():
           m = Movie(title, genre, size, fileType, 0) 
           g.addMovie(m.title)
 
+          self.movieDb.addMovie(m)
       self.movieDb.addGenre(g)
-      self.movieDb.addMovie(m)
 
     return self.movieDb
