@@ -29,7 +29,7 @@ class Extractor():
           movieAbsPath = os.path.join(letterPath, movieFile)
           title = movieFile
           fileType = movieFile.split('.')[1]
-          size = os.path.getsize(movieAbsPath)
+          size = str(os.path.getsize(movieAbsPath))
           genre = g.name
           # TODO:  compute length 
 

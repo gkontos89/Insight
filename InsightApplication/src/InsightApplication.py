@@ -92,8 +92,10 @@ class InsightApplication():
     self.tabbedInterface = DynamicGenreNotebook(self.frame, self.selectMovieCb)
     self.dbSyncButton = Button(self.frame, text = "Sync Database", command = self.dbSyncCb)
     self.loadDbButton = Button(self.frame, text = "Load Database", command = self.loadDbCb)
+    self.movieInfoPane = Text(self.frame, state = DISABLED)
 
     self.tabbedInterface.pack()
+    self.movieInfoPane.pack()
     self.dbSyncButton.pack()
     self.loadDbButton.pack()
 
@@ -135,9 +137,7 @@ class InsightApplication():
     Args:
       movieSelection - the movie name that was just selected by the user.
     '''
-
-
-    pass
+    self.displayMovieInfo(self.dataManger.movieDb.movies[movieSelection])
 
   def runSearchCb(self, searchString):
     '''
@@ -151,11 +151,23 @@ class InsightApplication():
 
   def displayMovieInfo(self, movie = None):
     '''
-    Parses out and formats the movie file information and displays it on the GUI
+    Parses out and formats the movie file information and displays it on the GUI in the following manner:
+    Title:
+    Genre:
+    Size:
+    File Type
+    Length:
     Args:
       movie - movie object.
     '''
-    pass
+    self.movieInfoPane.config(state = NORMAL)
+    self.movieInfoPane.delete(1.0, END)
+    self.movieInfoPane.insert('1.0', 'Title: ' + movie.title + '\n')
+    self.movieInfoPane.insert('2.0', 'Genre: ' + movie.genre + '\n')
+    self.movieInfoPane.insert('3.0', 'Size: ' + movie.size + '\n')
+    self.movieInfoPane.insert('4.0', 'File Type: ' + movie.fileType + '\n')
+    self.movieInfoPane.insert('5.0', 'Length: ' + str(movie.length) + '\n')
+    self.movieInfoPane.config(state = DISABLED)
 
   def generateWebLink(self, movie = None):
     '''
