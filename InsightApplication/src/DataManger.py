@@ -7,6 +7,7 @@ class DataManager():
     self.extractor = Extractor()
     self.rootDirectory = ''
     self.movieDb = None
+    self.exportFile = 'movieDB.csv'
 
   def setRootDirectory(self, rootDir):
     '''
@@ -27,7 +28,11 @@ class DataManager():
     if self.rootDirectory == '':
       return -1
 
+    if os.path.exists(os.path.join(self.rootDirectory, self.exportFile)):
+      os.remove(os.path.join(self.rootDirectory, self.exportFile))
+
     self.movieDb = self.extractor.extract(self.rootDirectory)
+    self.exportData()
 
   def loadDatabase(self, dataFile = ''):
     '''
@@ -58,20 +63,20 @@ class DataManager():
               movie = Movie(row[0], row[2], row[1], row[3])
               g.addMovie(movie)
 
-  def exportData(self, outputFile):
+  def exportData(self):
     '''
     Write extracted movie data to .csv file
-    Args:
-      outputFile - full path to desired .csv file
     '''
+    outputFile = os.path.join(self.rootDirectory, 'movieDB.csv')
     if self.movieDb and outputFile and outputFile.split('.')[1] == "csv":
       with open(outputFile, 'w', newline='') as csvFile:
         writer = csv.writer(csvFile)
 
         # Write genreName to file
         for genreName, genreObject  in self.movieDb.genres.items():
-          writer.writerow('[' + genreName + ']')
+          writer.writerow(['[' + genreName + ']'])
         
-          # Parse out and write movies data contained in genre
-          for movieTitle, movieObject in genreObject.movies.items():
+          # Parse out and write movie data contained in genre
+          for movieTitle in genreObject.movies:
+            movieObject = self.movieDb.movies[movieTitle]
             writer.writerow([movieTitle, movieObject.fileType, movieObject.size, movieObject.length])
