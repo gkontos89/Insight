@@ -7,41 +7,38 @@ lightweight database to see his collection.
 
 The folder structure is:
 
-->root
-	->genre
-		->letter
-			->movie1
-			...
-			
-ie.
-
-->movies
-	->Action
-		->A
-			->movie1
-			->movie2
-			...
-		->B
-			->movie3
-			->movie4
-			...
-	->Crime
-		->A
-			->movie5
-			->movie6
-			...
-		->B
-			->movie7
-			->movie8
-			...
-	->Drama
-		->A
-			->movie9
-			->movie10
-			...
-		->B
-			->movie11
-			->movie12
-			...
-			
-		
+->root  
+   ->genre  
+      ->letter  
+         ->movie1  
+         ...  
+         
+ie.  
+->movies  
+   ->Action  
+      ->A  
+         ->movie1  
+         ->movie2  
+         ...  
+      ->B  
+         ->movie3  
+         ->movie4  
+         ...  
+   ->Crime  
+      ->A  
+         ->movie5  
+         ->movie6  
+         ...  
+      ->B  
+         ->movie7  
+         ->movie8  
+         ...  
+   ->Drama  
+      ->A  
+         ->movie9  
+         ->movie10  
+         ...  
+      ->B  
+         ->movie11  
+         ->movie12  
+         ...
